@@ -639,3 +639,35 @@ nav ul li a {
 .credits {
   font-size: 13px;
 }
+
+
+
+/* 
+project icons
+*/
+
+.project-title {
+  display: flex;
+  justify-content: center;
+}
+
+.project-icons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.project-icons {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+.angel-icon {
+  color: #999;
+  height: 1.5rem;
+}
+
+.angel-icon:hover {
+  color: #b8a07e
+}
