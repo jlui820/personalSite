@@ -681,3 +681,12 @@ project icons
 .resume {
   color: white;
 }
+
+.contact-resume {
+  color: #898989;
+}
+
+.fa {
+  color: #898989;
+  padding-right: 10px;
+}
