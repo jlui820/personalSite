@@ -671,3 +671,13 @@ project icons
 .angel-icon:hover {
   color: #b8a07e
 }
+
+.iconify {
+  color: #b8a07e;
+  width: 44px;
+  height: 44px;
+}
+
+.resume {
+  color: white;
+}
