@@ -240,18 +240,17 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  /* background: url("../images/africa2.png") repeat scroll center center / cover; */
+  /* background: url("../images/africa4.png") repeat scroll center center / cover; */
 
   background-image: linear-gradient(to right, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-  url('../images/africa2.png');
-  /* width: 80%;
-  height: 400px; */
-  background-size: cover;
+  url('../images/africa9.png');
   color: white;
-  /* padding: 20px; */
-  
   height: 100vh;
-  width: 100%;
+  width: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
 }
 
 
@@ -262,7 +261,7 @@ nav ul li a {
   display: flex;
   /* justify-content: center; */
   flex-direction: column;
-  padding-top: 11rem;
+  padding-top: 8rem;
 }
 
 .header-content h1 {
