@@ -541,6 +541,13 @@ nav ul li a {
   padding-bottom: 10px;
 }
 
+.contact-details li:hover {
+  padding-bottom: 10px;
+  cursor: pointer;
+  color: #b8a07e
+}
+
+
 #contact input, #contact textarea {
   width: 100%;
 }
@@ -576,6 +583,14 @@ nav ul li a {
   margin: 0 0 20px;
   font-weight: 400;
   font-size: 13px;
+}
+
+.contact-icon {
+  padding-right: 10px;
+}
+
+.contact-resume {
+  color: #898989;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -657,18 +672,9 @@ project icons
 }
 
 .project-icons {
-  height: 3rem;
-  width: 3rem;
+  height: 2rem;
+  width: 2rem;
   margin-right: 2rem;
-}
-
-.angel-icon {
-  color: #999;
-  height: 1.5rem;
-}
-
-.angel-icon:hover {
-  color: #b8a07e
 }
 
 .iconify {
@@ -681,11 +687,22 @@ project icons
   color: white;
 }
 
-.contact-resume {
-  color: #898989;
-}
 
 .fa {
   color: #898989;
-  padding-right: 10px;
 }
+
+.email {
+  color: #898989;
+}
+
+
+.list:hover {
+  cursor: pointer;
+  color: #b8a07e;
+}
+
+.fa-angellist:hover {
+  color: #b8a07e;
+}
+ 
